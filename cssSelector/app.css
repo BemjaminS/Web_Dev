@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #edf6f9;
 }
 
@@ -7,7 +7,8 @@ button {
     background-color: #457b9d;
 }
 
-h1,h2 {
+h1,
+h2 {
     color: darkblue;
 }
 
@@ -34,7 +35,7 @@ Class selector
 nested selector
 */
 
-.section a {
+.post a {
     background-color: orange;
     color: red;
 }
@@ -42,4 +43,39 @@ nested selector
 li a {
     background-color: black;
     color: white;
+}
+
+/*
+atribute selector
+*/
+input[type="password"] {
+    color: plum;
+}
+
+
+button:hover {
+    background-color: red;
+    color: #edf6f9;
+}
+
+li a:hover {
+    background-color: wheat;
+    color: #1d3557;
+}
+
+.sec button:hover {
+    background-color: yellow;
+    color: black;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+p::first-line {
+    color: green;
+}
+
+p::selection {
+    background-color: #f4a261;
 }
