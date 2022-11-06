@@ -5,8 +5,10 @@
 */
 
 h1 {
-    width: 200px;
+    width: 100px;
     background-color: #ffcdb2;
+    padding-left: 100px;
+    padding-top: 100px;
 }
 
 #one {
@@ -49,4 +51,9 @@ img {
     width: 200px;
     border: 5px solid rgb(236, 181, 191);
     border-radius: 50%;
+}
+
+
+button {
+    padding: 10px 20px;
 }
