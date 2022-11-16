@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos
+# Created by https://www.toptal.com/developers/gitignore/api/macos,web
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,web
 
 ### macOS ###
 # General
@@ -34,5 +34,19 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+### Web ###
+*.asp
+*.cer
+*.csr
+*.css
+*.htm
+*.html
+*.js
+*.jsp
+*.php
+*.rss
+*.wasm
+*.wat
+*.xhtml
 
-
+# End of https://www.toptal.com/developers/gitignore/api/macos,web
